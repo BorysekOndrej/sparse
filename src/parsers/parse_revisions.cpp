@@ -304,6 +304,10 @@ std::size_t find_revisions_end(const std::string& s)
 
 common::revisions_t parse_revisions(const std::string& file)
 {
+    if (false){
+        return {}; // This can be used to disable parsing of Revisions.
+    }
+
     const auto header_end             = find_header(file);
     const std::string& without_header = file.substr(header_end, file.size());
 
