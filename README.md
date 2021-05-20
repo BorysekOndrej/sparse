@@ -43,3 +43,14 @@ ctest
 ```
 ./modules/parser/parser --help
 ```
+
+
+# Ondra
+
+```sh
+git submodule update --init
+
+./build/modules/parser/parser dataset_dirty/dataset/1126a_pdf.txt
+# valgrind ./build/modules/parser/parser dataset_dirty/dataset/1126a_pdf.txt
+python3 scorer_wrapper.py
+```
