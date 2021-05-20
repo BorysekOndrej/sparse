@@ -1,4 +1,7 @@
 build
+dataset
+.idea
+*.pyc
 
 # Prerequisites
 *.d
