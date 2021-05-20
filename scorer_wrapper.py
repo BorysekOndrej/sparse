@@ -3,8 +3,8 @@ from os.path import basename
 from pprint import pprint
 from score_results_against_official import main
 
-our_result_path = 'dataset/dataset'
-correct_result_path = 'c:/Github/mu/PA193_Security_Certificate_Parser/dataset/dataset/'
+our_result_path = 'dataset_dirty/dataset'
+correct_result_path = 'dataset/dataset'
 
 def a():
     return glob.glob(f"{our_result_path}/*.json")
